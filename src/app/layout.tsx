@@ -17,6 +17,8 @@ export const metadata: Metadata = {
   title: "Adedamola Ijiwole — Backend Engineer",
   description:
     "Backend Engineer building scalable systems with Node.js, TypeScript, and cloud-native architectures.",
+  // Ensure browsers, OS UI chrome, and PWA display use dark theme
+  themeColor: "#0a0a0a",
   openGraph: {
     title: "Adedamola Ijiwole — Backend Engineer",
     description:

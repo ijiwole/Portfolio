@@ -23,7 +23,7 @@ export default function Projects() {
           {projects.map((p) => (
             <div
               key={p.id}
-              className="rounded-lg border border-zinc-200 dark:border-zinc-800 p-4 transition-all duration-200 hover:shadow-sm hover:border-zinc-300 dark:hover:border-zinc-700"
+              className="rounded-lg border border-zinc-200 dark:border-zinc-800 p-4 shadow-sm transform-gpu transition-transform duration-200 ease-out motion-safe:hover:-translate-y-2 motion-safe:hover:scale-[1.02] hover:shadow-2xl hover:border-zinc-300 dark:hover:border-zinc-700"
             >
               {p.image && (
                 <div className="relative aspect-video overflow-hidden rounded-md bg-zinc-100 dark:bg-neutral-800">

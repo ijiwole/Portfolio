@@ -14,7 +14,7 @@ export default function Hero() {
               Adedamola Ijiwole
             </h1>
             <p className="mt-2 text-lg text-zinc-900 dark:text-zinc-300">
-              Backend Engineer — Building scalable systems with Node.js & TypeScript
+              Backend Engineer building scalable systems with Node.js & TypeScript
             </p>
             <div className="mt-6 flex flex-wrap items-center gap-3">
               <a
@@ -55,14 +55,30 @@ export default function Hero() {
               />
             </div>
             <div className="flex gap-3">
-              <a aria-label="GitHub" href="https://github.com/ijiwole" target="_blank" className="p-2 rounded-md border border-zinc-300 dark:border-zinc-700">
-                <Github className="size-5" />
+              <a
+                aria-label="GitHub"
+                href="https://github.com/ijiwole"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group relative p-2 rounded-md border border-zinc-300 dark:border-zinc-700 transition-all duration-200 hover:bg-zinc-100 dark:hover:bg-zinc-800 hover:border-zinc-400 dark:hover:border-zinc-600 motion-safe:hover:scale-[1.08] motion-safe:active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-300 dark:focus-visible:ring-zinc-700"
+              >
+                <Github className="size-5 text-zinc-700 dark:text-zinc-200 transition-colors duration-200 group-hover:text-black dark:group-hover:text-white" />
               </a>
-              <a aria-label="LinkedIn" href="https://www.linkedin.com/in/adedamola-ijiwole-960a05199/" target="_blank" className="p-2 rounded-md border border-zinc-300 dark:border-zinc-700">
-                <Linkedin className="size-5" />
+              <a
+                aria-label="LinkedIn"
+                href="https://www.linkedin.com/in/adedamola-ijiwole-960a05199/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group relative p-2 rounded-md border border-zinc-300 dark:border-zinc-700 transition-all duration-200 hover:bg-zinc-100 dark:hover:bg-zinc-800 hover:border-zinc-400 dark:hover:border-zinc-600 motion-safe:hover:scale-[1.08] motion-safe:active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-300 dark:focus-visible:ring-zinc-700"
+              >
+                <Linkedin className="size-5 text-zinc-700 dark:text-zinc-200 transition-colors duration-200 group-hover:text-black dark:group-hover:text-white" />
               </a>
-              <a aria-label="Email" href="mailto:adedamolaijiwole@gmail.com" className="p-2 rounded-md border border-zinc-300 dark:border-zinc-700">
-                <Mail className="size-5" />
+              <a
+                aria-label="Email"
+                href="mailto:adedamolaijiwole@gmail.com"
+                className="group relative p-2 rounded-md border border-zinc-300 dark:border-zinc-700 transition-all duration-200 hover:bg-zinc-100 dark:hover:bg-zinc-800 hover:border-zinc-400 dark:hover:border-zinc-600 motion-safe:hover:scale-[1.08] motion-safe:active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-300 dark:focus-visible:ring-zinc-700"
+              >
+                <Mail className="size-5 text-zinc-700 dark:text-zinc-200 transition-colors duration-200 group-hover:text-black dark:group-hover:text-white" />
               </a>
             </div>
           </div>
