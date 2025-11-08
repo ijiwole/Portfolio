@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <ScrollRevealSection id="hero" className="py-16 sm:py-24 bg-gradient-to-b from-zinc-50 to-white dark:from-neutral-950 dark:to-neutral-900">
       <div className="mx-auto max-w-4xl px-6">
-        <div className="flex items-center justify-between gap-4">
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <div>
             <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">
               Adedamola Ijiwole
@@ -39,8 +39,8 @@ export default function Hero() {
               </a>
             </div>
           </div>
-          <div className="hidden sm:flex flex-col items-end gap-3">
-            <div className="relative h-32 w-32 sm:h-40 sm:w-40 rounded-lg border border-zinc-300 dark:border-zinc-700 overflow-hidden">
+          <div className="flex flex-col items-center sm:items-end gap-3 mt-6 sm:mt-0 w-full sm:w-auto">
+            <div className="hidden sm:block relative h-32 w-32 sm:h-40 sm:w-40 rounded-lg border border-zinc-300 dark:border-zinc-700 overflow-hidden">
               <Image
                 src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=800&q=60"
                 alt="Developer code photo"
@@ -54,7 +54,7 @@ export default function Hero() {
                 }
               />
             </div>
-            <div className="flex gap-3">
+            <div className="flex gap-3 justify-center sm:justify-end w-full">
               <a
                 aria-label="GitHub"
                 href="https://github.com/ijiwole"
