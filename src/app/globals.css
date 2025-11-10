@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root, html {
-  /* Hint browsers and built-in UI to use dark styling */
-  color-scheme: dark;
+  /* Allow both schemes; the active class controls which is used */
+  color-scheme: light dark;
 }
 
 :root {
@@ -14,6 +14,8 @@
 html.dark {
   --background: #0a0a0a;
   --foreground: #ededed;
+  /* Ensure built-in UI (scrollbars, form controls) switch in dark mode */
+  color-scheme: dark;
 }
 
 @theme inline {
